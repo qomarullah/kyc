@@ -1,16 +1,31 @@
 
+Simple Smart KYC
+------
+
+Installation
+------
 Cd folder 
+
 virtualenv venv
+
 source venv/bin/activate
 
 pip install flask
-Pip install make
-pip install face_recognition
-pip install opencv-python
-pip install imutils
-pip install pytesseract
-(Brew install tesseract)
 
+Pip install make
+
+pip install face_recognition
+
+pip install opencv-python
+
+pip install imutils
+
+pip install pytesseract
+(make sure install - brew install tesseract)
+
+
+Running
+------
 
 http://localhost:5000/textImage?known=/Users/mfstech/PROJECT/known_face/ayah-ktp.jpg
 
