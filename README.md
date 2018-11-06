@@ -1,5 +1,5 @@
 
-Simple Smart KYC
+Simple Smart API for KYC
 ------
 
 Installation
