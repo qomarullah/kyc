@@ -12,7 +12,7 @@ source venv/bin/activate
 
 pip install flask
 
-pip install make
+pip install cmake
 
 pip install face_recognition
 
