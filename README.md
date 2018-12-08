@@ -37,8 +37,7 @@ http://localhost:5000/faceImage?known=/Users/mfstech/PROJECT/known_face/ayah-ktp
 
 Deployment
 
-*#!/bin/bash
-
+#!/bin/bash
 
 cd /apps/ekyc/
 source venv/bin/activate
