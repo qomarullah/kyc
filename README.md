@@ -7,6 +7,11 @@ Installation
 install python3.5
 sudo update-alternatives --config python3
 
+sudo easy_install pip or
+sudo easy_install3 pip
+export LC_ALL=C
+
+
 Cd folder 
 
 virtualenv venv
