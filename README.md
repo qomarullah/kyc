@@ -4,6 +4,9 @@ Simple Smart API for KYC
 
 Installation
 ------
+install python3.5
+sudo update-alternatives --config python3
+
 Cd folder 
 
 virtualenv venv
