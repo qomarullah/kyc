@@ -13,6 +13,7 @@ source venv/bin/activate
 pip install flask
 
 pip install cmake
+https://github.com/ageitgey/face_recognition/issues/120
 
 pip install face_recognition
 
