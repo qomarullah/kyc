@@ -34,3 +34,13 @@ http://localhost:5000/faceVideo?known=/Users/mfstech/PROJECT/known_face/ayah-ktp
 
 http://localhost:5000/faceImage?known=/Users/mfstech/PROJECT/known_face/ayah-ktp.jpg&unknown=/Users/mfstech/PROJECT/unknown_face/siapa3.jpg
 
+
+Deployment
+
+*#!/bin/bash
+
+
+cd /apps/ekyc/
+source venv/bin/activate
+gunicorn -w 5 -b 0.0.0.0:5000 server:app &
+
